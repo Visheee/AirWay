@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EDEC2712107312400046B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEC2702107312400046B59 /* AppDelegate.swift */; };
+		3EDEC2732107312400046B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEC2722107312400046B59 /* ViewController.swift */; };
+		3EDEC2762107312400046B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDEC2742107312400046B59 /* Main.storyboard */; };
+		3EDEC2782107312500046B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDEC2772107312500046B59 /* Assets.xcassets */; };
+		3EDEC27B2107312500046B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDEC2792107312500046B59 /* LaunchScreen.storyboard */; };
+		3EDEC2862107312500046B59 /* AirWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEC2852107312500046B59 /* AirWayTests.swift */; };
+		3EDEC2912107312500046B59 /* AirWayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEC2902107312500046B59 /* AirWayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EDEC2822107312500046B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDEC2652107312400046B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDEC26C2107312400046B59;
+			remoteInfo = AirWay;
+		};
+		3EDEC28D2107312500046B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDEC2652107312400046B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDEC26C2107312400046B59;
+			remoteInfo = AirWay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EDEC26D2107312400046B59 /* AirWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDEC2702107312400046B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDEC2722107312400046B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDEC2752107312400046B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EDEC2772107312500046B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDEC27A2107312500046B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EDEC27C2107312500046B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDEC2812107312500046B59 /* AirWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDEC2852107312500046B59 /* AirWayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirWayTests.swift; sourceTree = "<group>"; };
+		3EDEC2872107312500046B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDEC28C2107312500046B59 /* AirWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDEC2902107312500046B59 /* AirWayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirWayUITests.swift; sourceTree = "<group>"; };
+		3EDEC2922107312500046B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDEC26A2107312400046B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC27E2107312500046B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC2892107312500046B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDEC2642107312400046B59 = {
+			isa = PBXGroup;
+			children = (
+				3EDEC26F2107312400046B59 /* AirWay */,
+				3EDEC2842107312500046B59 /* AirWayTests */,
+				3EDEC28F2107312500046B59 /* AirWayUITests */,
+				3EDEC26E2107312400046B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDEC26E2107312400046B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEC26D2107312400046B59 /* AirWay.app */,
+				3EDEC2812107312500046B59 /* AirWayTests.xctest */,
+				3EDEC28C2107312500046B59 /* AirWayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDEC26F2107312400046B59 /* AirWay */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEC2702107312400046B59 /* AppDelegate.swift */,
+				3EDEC2722107312400046B59 /* ViewController.swift */,
+				3EDEC2742107312400046B59 /* Main.storyboard */,
+				3EDEC2772107312500046B59 /* Assets.xcassets */,
+				3EDEC2792107312500046B59 /* LaunchScreen.storyboard */,
+				3EDEC27C2107312500046B59 /* Info.plist */,
+			);
+			path = AirWay;
+			sourceTree = "<group>";
+		};
+		3EDEC2842107312500046B59 /* AirWayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEC2852107312500046B59 /* AirWayTests.swift */,
+				3EDEC2872107312500046B59 /* Info.plist */,
+			);
+			path = AirWayTests;
+			sourceTree = "<group>";
+		};
+		3EDEC28F2107312500046B59 /* AirWayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEC2902107312500046B59 /* AirWayUITests.swift */,
+				3EDEC2922107312500046B59 /* Info.plist */,
+			);
+			path = AirWayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDEC26C2107312400046B59 /* AirWay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDEC2952107312500046B59 /* Build configuration list for PBXNativeTarget "AirWay" */;
+			buildPhases = (
+				3EDEC2692107312400046B59 /* Sources */,
+				3EDEC26A2107312400046B59 /* Frameworks */,
+				3EDEC26B2107312400046B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirWay;
+			productName = AirWay;
+			productReference = 3EDEC26D2107312400046B59 /* AirWay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EDEC2802107312500046B59 /* AirWayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDEC2982107312500046B59 /* Build configuration list for PBXNativeTarget "AirWayTests" */;
+			buildPhases = (
+				3EDEC27D2107312500046B59 /* Sources */,
+				3EDEC27E2107312500046B59 /* Frameworks */,
+				3EDEC27F2107312500046B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDEC2832107312500046B59 /* PBXTargetDependency */,
+			);
+			name = AirWayTests;
+			productName = AirWayTests;
+			productReference = 3EDEC2812107312500046B59 /* AirWayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EDEC28B2107312500046B59 /* AirWayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDEC29B2107312500046B59 /* Build configuration list for PBXNativeTarget "AirWayUITests" */;
+			buildPhases = (
+				3EDEC2882107312500046B59 /* Sources */,
+				3EDEC2892107312500046B59 /* Frameworks */,
+				3EDEC28A2107312500046B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDEC28E2107312500046B59 /* PBXTargetDependency */,
+			);
+			name = AirWayUITests;
+			productName = AirWayUITests;
+			productReference = 3EDEC28C2107312500046B59 /* AirWayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDEC2652107312400046B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vishal Dhiman";
+				TargetAttributes = {
+					3EDEC26C2107312400046B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3EDEC2802107312500046B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3EDEC26C2107312400046B59;
+					};
+					3EDEC28B2107312500046B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3EDEC26C2107312400046B59;
+					};
+				};
+			};
+			buildConfigurationList = 3EDEC2682107312400046B59 /* Build configuration list for PBXProject "AirWay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDEC2642107312400046B59;
+			productRefGroup = 3EDEC26E2107312400046B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDEC26C2107312400046B59 /* AirWay */,
+				3EDEC2802107312500046B59 /* AirWayTests */,
+				3EDEC28B2107312500046B59 /* AirWayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDEC26B2107312400046B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDEC27B2107312500046B59 /* LaunchScreen.storyboard in Resources */,
+				3EDEC2782107312500046B59 /* Assets.xcassets in Resources */,
+				3EDEC2762107312400046B59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC27F2107312500046B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC28A2107312500046B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDEC2692107312400046B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDEC2732107312400046B59 /* ViewController.swift in Sources */,
+				3EDEC2712107312400046B59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC27D2107312500046B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDEC2862107312500046B59 /* AirWayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDEC2882107312500046B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDEC2912107312500046B59 /* AirWayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDEC2832107312500046B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDEC26C2107312400046B59 /* AirWay */;
+			targetProxy = 3EDEC2822107312500046B59 /* PBXContainerItemProxy */;
+		};
+		3EDEC28E2107312500046B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDEC26C2107312400046B59 /* AirWay */;
+			targetProxy = 3EDEC28D2107312500046B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EDEC2742107312400046B59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDEC2752107312400046B59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EDEC2792107312500046B59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDEC27A2107312500046B59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDEC2932107312500046B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EDEC2942107312500046B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDEC2962107312500046B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDEC2972107312500046B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EDEC2992107312500046B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirWay.app/AirWay";
+			};
+			name = Debug;
+		};
+		3EDEC29A2107312500046B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirWay.app/AirWay";
+			};
+			name = Release;
+		};
+		3EDEC29C2107312500046B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirWay;
+			};
+			name = Debug;
+		};
+		3EDEC29D2107312500046B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8R79ZVMWH;
+				INFOPLIST_FILE = AirWayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrxmedical.AirWayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirWay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDEC2682107312400046B59 /* Build configuration list for PBXProject "AirWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDEC2932107312500046B59 /* Debug */,
+				3EDEC2942107312500046B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDEC2952107312500046B59 /* Build configuration list for PBXNativeTarget "AirWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDEC2962107312500046B59 /* Debug */,
+				3EDEC2972107312500046B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDEC2982107312500046B59 /* Build configuration list for PBXNativeTarget "AirWayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDEC2992107312500046B59 /* Debug */,
+				3EDEC29A2107312500046B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDEC29B2107312500046B59 /* Build configuration list for PBXNativeTarget "AirWayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDEC29C2107312500046B59 /* Debug */,
+				3EDEC29D2107312500046B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDEC2652107312400046B59 /* Project object */;
+}
